@@ -3,6 +3,6 @@ import { SearchController } from './search/search.controller';
 import { SellController } from './sell/sell.controller';
 
 @Module({
-  controllers: [SearchController, SellController]
+  controllers: [SearchController, SellController],
 })
 export class MarketplaceModule {}
